@@ -1,0 +1,76 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logoName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navSearchbarwithicon {
+    width: 45%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.navSearchbar {
+    width: 70%;
+    border-radius: 30px;
+    height: 40px;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.searchLogo {
+    padding: 3.5px 15px; 
+    width: 30px;
+    height: 30px;
+    margin-left: -50px;
+    border: 1px solid gray;
+    border-radius: 0 30px 30px 0; 
+    cursor: pointer;
+    background-color: #f8f8f8;
+}
+
+.voiceLogo {
+    width: 30px;
+    height: 30px;
+    color: black;
+    background-color: #f8f8f8;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 50%;
+}
+
+.videoLogo {
+    width: 40px;
+    height: 30px;
+}
+
+.notificationLogo {
+    width: 40px;
+    height: 30px;
+}
+
+.youtubeLogo {
+    width: 40px;
+    margin-right: 5px;
+    height: 40px;
+    color: red;
+}
+
+::-webkit-input-placeholder {
+    font-weight: bold;
+    text-indent: 20px;
+    font-size: medium;
+}
