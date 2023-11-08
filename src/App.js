@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     <h1>Youtube Clone</h1>
+     <h1>Youtube Clone by chetan Patidar</h1>
     </div>
   );
 }
