@@ -6,10 +6,7 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
-      <Routes>
-        <Route path='/' element={<Home />} />
-      
-     </Routes>
+     <Home />
      <h1>Youtube Clone by chetan Patidar</h1>
     </div>
     </BrowserRouter>
